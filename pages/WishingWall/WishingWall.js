@@ -1,6 +1,8 @@
 Page({
   data: {
-    currentData: 0,
+    tablist: ['推荐书单','我的愿望','心愿排行榜'],
+    booklist:[1,2,3,4,5,6,7,8,9],
+    activeIndex:0
   },
   /**
    * 生命周期函数--监听页面加载
@@ -8,23 +10,10 @@ Page({
   onLoad: function (options) {
   },
   //获取当前滑块的index
-  bindchange: function (e) {
-    const that = this;
-    that.setData({
-      currentData: e.detail.current
+  changeTab (e) {
+    this.setData({
+      activeIndex: e.currentTarget.dataset.index
     })
-  },
-  //点击切换，滑块index赋值
-  checkCurrent: function (e) {
-    const that = this;
-
-    if (that.data.currentData === e.target.dataset.current) {
-      return false;
-    } else {
-
-      that.setData({
-        currentData: e.target.dataset.current
-      })
-    }
   }
+ 
 })
