@@ -1,14 +1,61 @@
-<view class='topTabSwiper'>
-    <view class='tab  {{currentData == 0 ? "tabBorer" : ""}}'  data-current = "0" bindtap='checkCurrent'>推荐</view>
-    <view class='tab  {{currentData == 1 ? "tabBorer" : ""}}'  data-current = "1" bindtap='checkCurrent'>热点</view>
-    <view class='tab  {{currentData == 2 ? "tabBorer" : ""}}'  data-current = "2" bindtap='checkCurrent'>关注</view>
-</view>
-<swiper current="{{currentData}}" class='swiper' style="" duration="300" bindchange="bindchange">
-  <swiper-item><view class='swiper_con'>welcome come to 推荐</view></swiper-item> 
-  <swiper-item><view class='swiper_con'>welcome come to 热点</view></swiper-item>
-  <swiper-item><view class='swiper_con'>welcome come to 关注</view></swiper-item>  
-</swiper>
-<view>
+<view class="bookContainerOuter"> 
+<view class='bookContainer'> 
+  <image src='../../Img/Banner_.png' class="topImg"></image>
+  <view class="tabCon">
+    <view class="tabList" >
+        <view class="{{index==activeIndex?'tabItem activeColor':'tabItem'}}" wx:for="{{tablist}}" wx:key="{{index}}" data-index="{{index}}" bindtap="changeTab">
+          <text>{{item}}</text>
+          <!-- <text class="bottomBorder" wx:if="{{index==activeIndex}}"></text> -->
+        </view>
+    </view>
+  </view>
+  
 
-<audio id="audio" src="http://y.gtimg.cn/music/photo_new/T002R300x300M000003rsKF44GyaSk.jpg?max_age=2592000"  loop="loop" autoplay="autoplay" ></audio>
+  <view wx-if="{{activeIndex==0}}" class="recommendCon" >
+    <view class="{{index%2==0?'recommendBookTr recommendBook':'recommendBook'}}" wx:for="{{booklist}}" wx:key="{{index}}">
+      <image src='../../Img/Banner_.png' class="recommendImg"></image>
+      <view class="recommendIntro">
+          <view class="recommendName">你的时间节点</view>
+          <view class="recommendHeartCon">
+            <image src='../../Img/Banner_.png' class="recommendHeartImg"></image>
+            <text  class="recommendText">234</text>
+          </view>
+      </view>
+
+    </view>
+  </view>
+
+
+  <view wx-if="{{activeIndex==1}}" class="dreamCon">
+   <view class="" wx:for="{{booklist}}" wx:key="{{index}}" class="dreamItem">
+      <image src='../../Img/Banner_.png' class="dreamImg"></image>
+      <view class="dreamName">草房子</view>
+      
+
+    </view>
+  </view>
+
+
+  <view class="bookCon" wx:for="{{tablist}}" wx:key="{{index}}" wx-if="{{activeIndex==2}}">
+    <image src='../../Img/Banner_.png' class="bookImg"></image>
+    <view class="rankCon">
+      <image src='../../Img/Banner_.png' class="rankIcon"></image>
+      <text class="rank">第一名</text>
+      <view class="rankIntro">
+        <view>1323445人希望一起阅读这本书,其中包含你的好友/校友</view>
+      </view>
+    </view>
+
+    <view class="bookInfo">
+      <view class="bookName">《创意有道》</view>
+      <view class="bookDetail">
+        <text class="bookAuth">作者：xx某某</text>
+        <text class="bookFactory">出版社：xx某某出版社</text>
+      </view>
+      <view class="bookIntro">本次会议吸引了各行业企业人力资源专业人士亲临现场，共同聚焦人力资源技术带来的革新和挑战，是HR们分享、交流、碰撞的思想盛宴。感受HR未来之路在人力资源管理的新趋势下的人力资源技术变革，学习高科技给人力资源智慧管理带来的新思路。</view>
+    </view>
+
+  </view>
+
+</view>
 </view>
