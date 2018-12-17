@@ -1,46 +1,61 @@
-<view>
-    <view class="my-container">
-        <view class="bgcolor"></view>
-        <view class="my-box">
-            <view class="my-info">
-                <image class="my-icon" src="../../Img/man.png"></image>
-                <text class="my-name">喜妹Chloe</text>
-                <text class="my-introduce">即将爆炸的喜妹</text>
-                <view catchtap="jumpDetail" class="my-more">查看我的主页 <image class="left-arrow" src="../../Img/left-arrow.png"></image> </view>
+<view class="page">
+    <view class="header">
+        <image class="top-bg" src="../../Img/my-banner.png"></image>
+        <view class="my-box"> 
+            <image class="my-icon" src="../../Img/man.png"></image>
+            <view class="my-detail">
+                <image class="address-icon" src="../../Img/"></image>
+                <text class="address">北京 北京市昌平区</text>
             </view>
-            <view class="my-zone">
-              <view class='my-item'>
-                <image class='zone-icon' src="../../Img/my-concern.png"></image>
-                <text class='word'>我的关注</text>
-              </view>
-              <view class='my-item'>
-                <image class='zone-icon' src="../../Img/concern-me.png"></image>
-                <text class='word'>关注我的</text>
-              </view>
-              <view class='my-item'>
-                <image class='zone-icon' src="../../Img/notice.png"></image>
-                <text class='word'>通知</text>
-              </view>
-              <view class='my-item'>
-                <image class='zone-icon' src="../../Img/letter.png"></image>
-                <text class='word'>私信</text>
-              </view>
-              <view class='my-item'>
-                <image class='zone-icon' src="../../Img/edit.png"></image>
-                <text class='word'>设置</text>
-              </view>
-              <view class='my-item'>
-                <image class='zone-icon' src="../../Img/school-friend.png"></image>
-                <text class='word'>我的校友</text>
-              </view>
-              <view class='my-item'>
-                <image class='zone-icon' src="../../Img/school-friend.png"></image>
-                <text class='word'>我的校友</text>
-              </view>
+            <view class="my-detail">
+                <image class="school-icon" src="../../Img/"></image>
+                <text class="address">北京财经学院</text>
+            </view>
+            <view class="options">
+                <view class="opt-item">
+                    <image src="../../Img/icon-carefriend.png" class='option-care'></image><text>关注</text>
+                </view>
+                 <view class="opt-item">
+                    <image src="../../Img/icon-addfriend.png" class="option-add"></image><text>加好友</text>
+                </view>
+                 <view class="opt-item">
+                    <image src="../../Img/icon-delfriend.png" class="option-del"></image><text>拉黑</text>
+                </view>
+                 <view class="opt-item">
+                    <image src="../../Img/icon-morefriend.png" class="option-more"></image><text>更多</text>
+                </view>
+            </view>
+            <view class="fans-box">
+                <view class="left">
+                    <view class="funs-num">1</view>
+                    <view class="funs-title">我的关注</view>
+                </view>
+                <view class='v-line'></view>
+                <view class="right">
+                    <view class="funs-num">12</view>
+                    <view class="funs-title">我的粉丝</view>
+                </view>
             </view>
         </view>
     </view>
-    <view class="record">我的打卡记录</view>
+    <view class="other-books">
+        <view class="label-box">
+            <text class="label">他读过的书</text>
+            <view class="more">
+                更多
+                <image class="left-arrow" src="../../Img/left-arrow.png"></image>
+            </view>
+        </view>
+        <view class="books-box">
+            <image class="book-item" src="../../Img/book1.png"></image>
+            <image class="book-item" src="../../Img/book2.png"></image>
+            <image class="book-item" src="../../Img/book3.png"></image>
+            <image class="book-item" src="../../Img/book4.png"></image>
+        </view>
+    </view>
+
+    <!-- 打卡记录 -->
+    <view class="record">他的打卡记录</view>
     <view class="content">
       <view >
         <view>

@@ -6,7 +6,8 @@
     "pages/WishingWall/WishingWall",
     "pages/work/work",
     "pages/active/active",
-    "pages/my/my"
+    "pages/my/my",
+    "pages/my/detail"
   ],
   "window":{
     "backgroundTextStyle":"light",
