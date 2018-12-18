@@ -132,5 +132,5 @@
       <view style="display:{{activeIndex !== 1 ? 'none' : 'block'}}">1</view>
       <view style="display:{{activeIndex !== 2 ? 'none' : 'block'}}">2</view>
   </view>
-  <view class="kongbai"></view>
+  <!-- <view class="kongbai"></view> -->
 </view>
