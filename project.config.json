@@ -33,12 +33,18 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 0,
+			"current": 1,
 			"list": [
 				{
 					"id": -1,
 					"name": "书单",
-					"pathName": "pages/WishingWall/WishingWall"
+					"pathName": "pages/WishingWall/WishingWall",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "活动",
+					"pathName": "pages/active/active"
 				}
 			]
 		}
