@@ -1,6 +1,6 @@
 <view class="bookContainerOuter"> 
 <view class='bookContainer'> 
-  <image src='../../Img/Banner_.png' class="topImg"></image>
+  <image src='../../Img/bookBanner.png' class="topImg"></image>
   <view class="tabCon">
     <view class="tabList" >
         <view class="{{index==activeIndex?'tabItem activeColor':'tabItem'}}" wx:for="{{tablist}}" wx:key="{{index}}" data-index="{{index}}" bindtap="changeTab">
@@ -13,11 +13,12 @@
 
   <view wx-if="{{activeIndex==0}}" class="recommendCon" >
     <view class="{{index%2==0?'recommendBookTr recommendBook':'recommendBook'}}" wx:for="{{booklist}}" wx:key="{{index}}">
-      <image src='../../Img/Banner_.png' class="recommendImg"></image>
+      <image src='../../Img/book2.png' class="recommendImg"></image>
       <view class="recommendIntro">
           <view class="recommendName">你的时间节点</view>
           <view class="recommendHeartCon">
-            <image src='../../Img/Banner_.png' class="recommendHeartImg"></image>
+            <image src='../../Img/select.png' class="recommendHeartImg" wx:if="{{index%2==0}}"></image>
+            <image src='../../Img/unselect.png' class="recommendHeartImg" wx:else></image>
             <text  class="recommendText">234</text>
           </view>
       </view>
@@ -27,19 +28,21 @@
 
 
   <view wx-if="{{activeIndex==1}}" class="dreamCon">
-   <view class="" wx:for="{{booklist}}" wx:key="{{index}}" class="dreamItem">
-      <image src='../../Img/Banner_.png' class="dreamImg"></image>
+   <view  wx:for="{{booklist}}" wx:key="{{index}}" class="dreamItem">
+      <image src='../../Img/book1.png' class="dreamImg"></image>
       <view class="dreamName">草房子</view>
-      
-
+    </view>
+    <view class="dreamItem">
+      <image src='../../Img/addBook.png' class="dreamImg"></image>
+      <!-- <view class="dreamName">草房子</view> -->
     </view>
   </view>
 
 
   <view class="bookCon" wx:for="{{tablist}}" wx:key="{{index}}" wx-if="{{activeIndex==2}}">
-    <image src='../../Img/Banner_.png' class="bookImg"></image>
+    <image src='../../Img/book2.png' class="bookImg"></image>
     <view class="rankCon">
-      <image src='../../Img/Banner_.png' class="rankIcon"></image>
+      <image src='../../Img/phb.png' class="rankIcon"></image>
       <text class="rank">第一名</text>
       <view class="rankIntro">
         <view>1323445人希望一起阅读这本书,其中包含你的好友/校友</view>

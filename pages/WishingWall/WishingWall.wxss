@@ -166,7 +166,7 @@
   overflow: hidden;
 }
 .dreamItem{
-  width:180rpx;
+  width:195rpx;
   float:left;
   text-align: center;
   margin:20rpx;
