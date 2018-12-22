@@ -40,10 +40,12 @@
 }
 .close{
     position: absolute;
-    right: 22rpx;
-    top: 22rpx;
+    right: 0rpx;
+    top: 0rpx;
     width:30rpx;
     height:30rpx;
+    z-index: 3;
+    padding: 20rpx;
 }
 .cancel{
     position: absolute;
@@ -58,7 +60,6 @@
     height: calc(100% - 120rpx);
     box-sizing: border-box;
     padding: 47rpx 25rpx;
-    display: none;
 }
 .label-box{
     padding-left: 24rpx;
@@ -135,4 +136,33 @@
     left: 14rpx;
     width:136rpx;
     height:182rpx;
+}
+.b-info{
+    position: absolute;
+    box-sizing: border-box;
+    padding-top: 34rpx;
+    right: 0;
+    width: 194rpx;
+    text-align: center;
+    height: 100%;
+}
+.b-name{
+font-size:28rpx;
+font-weight:500;
+color:rgba(51,51,51,1);
+}
+.select{
+    position: absolute;
+    right: 132rpx;
+    bottom: 28rpx;
+    width:32rpx;
+    height:31rpx;
+}
+.count{
+    position: absolute;
+    left: 78rpx;
+    bottom: 22rpx;
+    font-size:28rpx;
+    font-weight:500;
+    color:rgba(153,153,153,1);
 }

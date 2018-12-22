@@ -10,7 +10,9 @@
     "pages/my/detail",
     "pages/my/setInfo",
     "pages/my/rank",
-    "pages/search/search"
+    "pages/search/search",
+    "pages/comment/comment",
+    "pages/book/detail"
   ],
   "window":{
     "backgroundTextStyle":"light",

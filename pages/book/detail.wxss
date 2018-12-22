@@ -1,0 +1,204 @@
+.box-bg{
+    /* position: relative; */
+    height:268rpx;
+    background:#275EA8;
+    box-sizing: border-box;
+}
+.book{
+    margin-top: 16rpx;
+    margin-left: 43rpx;
+    width: 154rpx;
+    height: 207rpx;
+}
+.book-box{
+    float: right;
+    width: 525rpx;
+    height: 100%;
+    box-sizing: border-box;
+    padding-top: 25rpx;
+}
+.b-name{
+    font-size:36rpx;
+    font-weight:bold;
+    color:rgba(255,255,255,1);
+}
+.auther-icon{
+    width: 18rpx;
+    height: 22rpx;
+    vertical-align: middle;
+}
+.book-icon{
+    margin-left: 60rpx;
+    width: 22rpx;
+    height: 22rpx;
+    vertical-align: middle;
+}
+.box{
+    margin-top: 25rpx;
+}
+.auther{
+    margin-left: 8rpx;
+    font-size:26rpx;
+    font-weight:500;
+    color:rgba(255,255,255,1);
+    opacity:0.6;
+}
+.reader{
+    margin-top: 8rpx;
+    width: 497rpx;
+    height: 66rpx;
+    line-height: 66rpx;
+    border-radius: 14rpx;
+    background-color: rgba(255,255,255,.2);
+    font-size:26rpx;
+    box-sizing: border-box;
+    padding-left: 21rpx;
+    font-weight:500;
+    color:rgba(255,255,255,1);
+}
+.con{
+    margin-top: -15rpx;
+    background:rgba(247,247,245,1);
+    border-radius:12rpx;
+    box-sizing: border-box;
+    padding-top: 33rpx;
+    padding-bottom: 38rpx;
+}
+.label{
+    padding-left: 29rpx;
+    font-size:34rpx;
+    font-weight:bold;
+    color:rgba(51,51,51,1);
+    margin-bottom: 30rpx;
+}
+.common-box{
+    padding: 23rpx 0 0 27rpx;
+    width:710rpx;
+    height:227rpx;
+    background:rgba(255,255,255,1);
+    box-shadow:0rpx 0rpx 19rpx 0rpx rgba(0, 0, 0, 0.02);
+    border-radius:14rpx;
+    box-sizing: border-box;
+    margin: 0 20rpx 38rpx 20rpx;
+}
+.comment{
+    float: left;
+    padding: 7rpx 23rpx;
+    font-size:26rpx;
+    font-weight:500;
+    margin-right: 10rpx;
+    margin-bottom: 10rpx;
+    background:rgba(255,255,255,1);
+    color: #B3B3B3;
+    border: 1rpx solid #DBDBDB;
+}
+.comment.blue{
+    color:rgba(111,172,255,1);
+    border:1rpx solid rgba(180, 212, 255, 1);
+}
+.comment.orange{
+    color: #FFA96F;
+    border: 1rpx solid #FFCAA6;
+}
+.intro{
+    width:710rpx;
+    margin: 0 auto;
+    padding: 27rpx 23rpx 31rpx 28rpx;
+    box-sizing: border-box;
+    background:rgba(255,255,255,1);
+    box-shadow:0rpx 0rpx 19rpx 0rpx rgba(0, 0, 0, 0.02);
+    border-radius:14rpx;
+    font-size:28rpx;
+    font-weight:500;
+    color:rgba(51,51,51,1);
+    margin-bottom: 38rpx;
+}
+.book-info{
+    width:710rpx;
+    height:339rpx;
+    margin: 0 auto;
+    background:rgba(255,255,255,1);
+    box-shadow:0rpx 0rpx 19rpx 0rpx rgba(0, 0, 0, 0.02);
+    border-radius:14rpx;
+    box-sizing: border-box;
+    padding-top: 40rpx;
+    padding-left: 31rpx;
+}
+.line{
+    height: 55rpx;
+    line-height: 55rpx
+}
+.b-key{
+    display: inline-block;
+    width: 100rpx;
+    margin-right: 60rpx;
+    font-size:28rpx;
+    font-weight:500;
+    color:rgba(162,162,162,1);
+}
+.b-val{
+    font-size:28rpx;
+    font-weight:500;
+    color:rgba(51,51,51,1);
+}
+.input-box{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    height: 100rpx;
+    box-sizing: border-box;
+    padding-left: 30rpx;
+    padding-top: 15rpx;
+}
+.input-pon{
+    position: relative;
+}
+.w-icon{
+    position: absolute;
+    width: 24rpx;
+    height: 26rpx;
+    z-index: 3;
+    left: 52rpx;
+    top: 20rpx;
+}
+.input{
+    width: 520rpx;
+    height: 70rpx;
+    border-radius: 70rpx;
+    background-color: #EDEDED;
+    padding-left: 85rpx;
+    font-size:26rpx;
+    font-weight:500;
+    color:black;
+    box-sizing: border-box;
+}
+.placeholder{
+    font-size:26rpx;
+    font-weight:500;
+    color:rgba(153,153,153,1);
+}
+.star{
+    position: absolute;
+    right: 128rpx;
+    top: 21rpx;
+}
+.collect-count{
+    font-size:24rpx;
+    line-height: 5rpx;
+    color:rgba(153,153,153,1);
+}
+.collect{
+    width:38rpx;
+    height:36rpx;
+}
+.share{
+    position: absolute;
+    right: 40rpx;
+    top: 29rpx;
+    width: 43rpx;
+    height: 42rpx;
+}
+.static{
+    height: 105rpx;
+}
