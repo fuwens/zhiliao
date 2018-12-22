@@ -12,7 +12,7 @@
   
 
   <view wx-if="{{activeIndex==0}}" class="recommendCon" >
-    <view class="{{index%2==0?'recommendBookTr recommendBook':'recommendBook'}}" wx:for="{{booklist}}" wx:key="{{index}}">
+    <view class="{{index%2==0?'recommendBookTr recommendBook':'recommendBook'}}" wx:for="{{booklist}}" wx:key="{{index}}" bindtap="tobook">
       <image src='/Img/book2.png' class="recommendImg"></image>
       <view class="recommendIntro">
           <view class="recommendName">你的时间节点</view>
@@ -28,7 +28,7 @@
 
 
   <view wx-if="{{activeIndex==1}}" class="dreamCon">
-   <view  wx:for="{{booklist}}" wx:key="{{index}}" class="dreamItem">
+   <view  wx:for="{{booklist}}" wx:key="{{index}}" class="dreamItem" bindtap="tobook">
       <image src='/Img/book1.png' class="dreamImg"></image>
       <view class="dreamName">草房子</view>
     </view>

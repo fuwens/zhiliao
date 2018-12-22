@@ -3,7 +3,7 @@
     <image style="width: 100%;" mode="widthFix" src='../../Img/Banner_.png'></image>
 
     <view class="title">
-      <view wx:for="{{list}}" wx:key="index" class="list_item" bindtap="tab({{index}})">
+      <view wx:for="{{list}}" wx:key="index" class="list_item" data-index="{{index}}" bindtap="tab">
         <view class="font {{activeIndex == index ? 'on' : ''}}">{{item}}</view>
       </view>
       

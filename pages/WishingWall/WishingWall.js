@@ -14,6 +14,12 @@ Page({
     this.setData({
       activeIndex: e.currentTarget.dataset.index
     })
+  },
+  tobook(){
+    wx.navigateTo({
+      url: '/pages/book/detail'
+    })
+    
   }
  
 })
