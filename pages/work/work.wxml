@@ -4,7 +4,7 @@
         <view class="selectBookInfo">
             <view class="selectBookItem">
                 <text class="selectBookText">已选书籍</text>
-                <view class="selectBookInput">
+                <view class="selectBookInput" bindtap="toSearch">
                     <image src='/Img/downArrow.png'  class="downArrow"></image>
                 </view>
                  
