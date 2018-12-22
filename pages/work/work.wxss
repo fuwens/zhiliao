@@ -1,5 +1,5 @@
 .selectBook{
-    padding:30rpx;
+    padding:30rpx 0 30rpx 30rpx;
 }
 .selectBookImg{
     width:184rpx;
@@ -34,7 +34,7 @@
 .selectBookInput{
     position: relative;
     display:inline-block;
-    width:290rpx;
+    width:280rpx;
     height:75rpx;
     padding-left:20rpx;
     font-size: 28rpx;
