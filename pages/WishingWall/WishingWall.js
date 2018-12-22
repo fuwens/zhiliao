@@ -20,6 +20,11 @@ Page({
       url: '/pages/book/detail'
     })
     
+  },
+  toSearch(){
+    wx.navigateTo({
+      url: '/pages/search/search'
+    })
   }
  
 })

@@ -33,13 +33,13 @@
       <view class="dreamName">草房子</view>
     </view>
     <view class="dreamItem">
-      <image src='/Img/addBook.png' class="dreamImg"></image>
+      <image src='/Img/addBook.png' class="dreamImg" bindtap="toSearch"></image>
       <!-- <view class="dreamName">草房子</view> -->
     </view>
   </view>
 
 
-  <view class="bookCon" wx:for="{{tablist}}" wx:key="{{index}}" wx-if="{{activeIndex==2}}">
+  <view class="bookCon" wx:for="{{tablist}}" wx:key="{{index}}" wx-if="{{activeIndex==2}}" bindtap="tobook">
     <image src='/Img/book2.png' class="bookImg"></image>
     <view class="rankCon">
       <image src='/Img/icon-first.png' class="rankIcon" wx:if="{{index==0}}"></image>
