@@ -33,10 +33,14 @@
                 <image class='zone-icon' data-type="schoolFriend" src="../../Img/school-friend.png"></image>
                 <text class='word' data-type="schoolFriend">我的校友</text>
               </view>
-              <!-- <view class='my-item'>
+              <view class='my-item' bindtap="jumpSearch">
                 <image class='zone-icon' src="../../Img/school-friend.png"></image>
-                <text class='word'>我的校友</text>
-              </view> -->
+                <text class='word'>搜索</text>
+              </view>
+              <view class='my-item' bindtap="jumpRank">
+                <image class='zone-icon' src="../../Img/school-friend.png"></image>
+                <text class='word'>排行榜</text>
+              </view>
             </view>
         </view>
     </view>
