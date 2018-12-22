@@ -11,7 +11,8 @@
   </view>
 
   <view class="content">
-      <view style="display:{{activeIndex !== 0 ? 'none' : 'block'}}">
+    <!-- style="display:{{activeIndex !== 0 ? 'none' : 'block'}}" -->
+      <view >
         <view>
           <view class="top">
             <view class="img">
@@ -37,17 +38,7 @@
             如果你读了王维的诗,王维似乎特别喜欢写空山,比如"空山x新雨后,天气晚来秋"；又比如"人闲桂花落,夜静春山空"
           </view>
           <view class="video">
-          
-            <!-- <audio
-              poster="{{poster}}"
-              name="{{name}}"
-              author="{{author}}"
-              src="{{src}}"
-              id="myAudio"
-              controls
-              loop
-            ></audio> -->
-            
+                    
             <view><audioPlayer bind:onEnd='onEnd' bind:onNext='onNext' src='{{src}}' bind:onLast='onLast' title=''/></view>
           </view>
           <view class="op">
@@ -98,8 +89,12 @@
           </view>
         </view>
       </view>
+
       <view style="display:{{activeIndex !== 1 ? 'none' : 'block'}}">1</view>
+
+
       <view style="display:{{activeIndex !== 2 ? 'none' : 'block'}}">2</view>
+
   </view>
   <view class="kongbai"></view>
 </view>
