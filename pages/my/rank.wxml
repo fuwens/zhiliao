@@ -1,0 +1,60 @@
+<view class="page">
+    <view class="box-bg">
+        <image src="../../Img/man.png" class="adver"></image>
+        <view class="name">喜妹Chloe</view>
+    </view>
+    <view class="rank-box">
+        <view class="head" >
+            <view class="item" catchtap="change" data-index="{{idx}}" wx:for="{{list}}" wx:for-index="idx" wx:for-item="item">
+                <text class="{{active == idx ? 'active': ''}}">{{item.text}}</text>
+            </view>
+        </view>
+        <view class="content">
+            <view class="me">
+            <view class="left">32</view>
+            <view class="center">我自己</view>
+            <view class="right">12</view>
+            </view>
+            <view class="line">
+                <view class="left">
+                    <image class="rank-icon" src="../../Img/icon-first.png"></image>
+                </view>
+                <view class="center">
+                    <image class="user" src="../../Img/man.png"> </image>
+                    <text class="user-name">fakesheep</text>
+                </view>
+                <view class="right">1</view>
+            </view>
+            <view class="line">
+                <view class="left">
+                    <image class="rank-icon" src="../../Img/icon-second.png"></image>
+                </view>
+                <view class="center">
+                     <image class="user" src="../../Img/man.png"> </image>
+                    <text class="user-name">fakesheep</text>
+                </view>
+                <view class="right">2</view>
+            </view>
+            <view class="line">
+                <view class="left">
+                    <image class="rank-icon" src="../../Img/icon-third.png"></image>
+                </view>
+                <view class="center">
+                    <image class="user" src="../../Img/man.png"> </image>
+                    <text class="user-name">fakesheep</text>
+                </view>
+                <view class="right">3</view>
+            </view>
+            <view class="line">
+                <view class="left">
+                    <text>4</text>
+                </view>
+                <view class="center">
+                    <image class="user" src="../../Img/man.png"> </image>
+                    <text class="user-name">fakesheep</text>
+                </view>
+                <view class="right">3</view>
+            </view>
+        </view>
+    </view>
+</view>
