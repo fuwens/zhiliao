@@ -1,2 +1,46 @@
 <!--pages/active/active.wxml-->
-<text>pages/active/active.wxml</text>
+<view class="activeCon">
+    <view class="activeIntro">
+        <view class="activeIntroTitle">「你阅读时，就像个孩子。」</view>
+        <view class="activeIntroDetail">8月27日，微信团队正式发布了首款社交阅APP——“微信读书”，这款基于微信关系链的官方阅读应用，同时支持iOS和Android两大终端平台，首次将“社交”元素真正融入书籍阅读。从此，阅读不再是小范围“书友”的专利，而成为朋友间交流的新领域。</view>
+    </view>
+    <view class="activeDetailCon">
+        <view>
+            <text class="line"></text>
+            <text class="newActiveTitle">最新活动</text>
+        </view>
+
+        <view class="newActiveDetail">
+            <image src='/Img/progressing.png' class="progressing"></image>
+            <view class="newActiveDetailInfo">虎子邀请您一起阅读《平凡的世界》</view>
+            <view class="newActiveDetailStyle">
+                <view>活动形式：线上视频（音频）直播/线下卓尔书店</view>
+                <view class="newActiveText">活动时间：2018-12-22 至 2018-12-30 </view>
+            </view>
+            <view class="newActiveJoin" bindtap="toDetail">我要参加</view>
+        </view>
+        
+        <view class="newActive">
+            <text class="line"></text>
+            <text class="newActiveTitle">往期活动</text>
+        </view>
+
+        <view class="oldActiveItem" bindtap="toDetail">
+            <image src='/Img/book2.png' class="oldActiveImg"></image>
+            <view class="oldActiveInfo">
+                <view class="oldActiveTitle">阅读自由主义</view>
+                <view class="oldActiveDeatil">12月23日是世界读书日，读书有多重要相信无需多言，从古至今又......</view>
+            </view>
+           
+        </view>
+
+         <view class="oldActiveItem" bindtap="toDetail">
+            <image src='/Img/book3.png' class="oldActiveImg"></image>
+             <view class="oldActiveInfo">
+                <view class="oldActiveTitle">装吧 尽情装</view>
+                <view class="oldActiveDeatil">12月23日是世界读书日，读书有多重要相信无需多言，从古至今又......</view>
+            </view>
+        </view>
+
+    </view>
+</view>

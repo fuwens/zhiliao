@@ -1,0 +1,112 @@
+.activeCon{
+
+}
+.activeIntro{
+    padding:35rpx 35rpx 45rpx 35rpx;
+    background:#275EA8;
+}
+.activeIntroTitle{
+    font-size: 36rpx;
+    color:#fff;
+    font-weight: bolder;
+}
+.activeIntroDetail{
+    margin-top: 30rpx;
+    font-size: 28rpx;
+    color:#fff;
+    opacity: 0.6;
+}
+.activeDetailCon{
+    background: #EBEBEB;
+    border-top-left-radius: 20rpx;
+    border-top-right-radius: 20rpx;
+    position: relative;
+    top:-10rpx;
+    padding:26rpx;
+}
+.newActive{
+    margin:40rpx 0 40rpx;
+}
+.line{
+    display:inline-block;
+    width:6rpx;
+    height:28rpx;
+    background: #275EA8;
+    margin-right: 20rpx;
+}
+.newActiveTitle{
+    margin-top: 30rpx;
+    font-size: 36rpx;
+    color:#010101;
+}
+.newActiveDetail{
+    width:700rpx;
+    background: #fff;
+    margin-top:30rpx;
+    border-radius: 10rpx;
+    padding:50rpx  0 40rpx 0; 
+    box-sizing: border-box; 
+    position: relative;
+}
+.newActiveDetailInfo{
+    font-size: 36rpx;
+    width:100%;
+    text-align: center;
+}
+.newActiveDetailStyle{
+    opacity: 0.6;
+    font-size: 28rpx;
+    border:1px solid #f1f1f1;
+    width:650rpx;
+    padding:20rpx;
+    box-sizing: border-box;
+    margin:50rpx auto;
+}
+.progressing{
+    position: absolute;
+    top:80rpx;
+    right:20rpx;
+    width:180rpx;
+    height:90rpx;
+}
+.newActiveText{
+    margin-top:15rpx;
+}
+.newActiveJoin{
+    width:350rpx;
+    background: #275EA8;
+    line-height: 80rpx;
+    text-align: center;
+    margin:0 auto;
+    color:#fff;
+    border-radius: 40rpx;
+    font-size: 36rpx;
+}
+
+.oldActiveItem{
+    width:700rpx;
+    margin:0 auto;
+    background: #fff;
+    margin-bottom: 20rpx;
+    box-sizing: border-box;
+    padding:8rpx 15rpx 8rpx 8rpx;
+}
+.oldActiveImg{
+    width:170rpx;
+    height:170rpx;
+    vertical-align: middle;
+}
+.oldActiveInfo{
+    width:450rpx;
+    margin-left: 30rpx;
+    display:inline-block;
+    vertical-align: middle;
+}
+.oldActiveTitle{
+    font-size: 36rpx;
+    margin-bottom: 15rpx;
+}
+.oldActiveDeatil{
+    font-size: 28rpx;
+    opacity: 0.6;
+}

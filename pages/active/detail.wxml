@@ -1,0 +1,75 @@
+<!--pages/active/detail.wxml-->
+<view>
+
+    <view class="activeBanner">
+        <image  src='/Img/activeBanner.png' class="activeImg"></image>
+        <view class="shareCon">
+            <image  src='/Img/shareIcon.png' class="shareIcon"></image>
+            <text class="shareText">分享</text>
+        </view>
+    </view>
+
+    <view class="intro">
+        <view class="introTitle">虎子邀请您一起阅读《平凡的世界》</view>
+        <view class="introInfo">
+            <image src='/Img/activebg.png' class="activebg"></image>
+            <view class="introInfoTextCon">
+                <view class="introInfoText">活动形式：线上视频（音频）直播/线下卓尔书店</view>
+                <view class="introInfoText">活动时间：2018-12-22 至 2018-12-30 </view>
+            </view>
+        </view>
+    </view>
+
+    <view class="autherCon">
+        <view class="autherTitleCon">
+            <image src='/Img/title.png' class="autherBg"></image>
+            <text class="autherTitle">本次嘉宾简介</text>
+        </view>
+        <view class="autherImgCon">
+            <image src='/Img/man.png' class="autherImg"></image>
+        </view>
+        <view class="autherName">三毛</view>
+        <view class="autherInfo">
+            原名陈懋平（mào）（后改名为陈平），汉族，浙江舟山人，1943年3月26日白羊座出生于重庆黄桷桠。卒于1991年1月4日，享年四十八岁。
+        </view>
+
+    </view>
+
+    
+    <view class="bookTitleIcon">
+        <text class="titleCon">
+            <text class="rowLine"></text>
+            <text class="bookTitle">本次书籍介绍</text>
+            <text class="rowLine"></text>
+        </text>
+    </view>
+
+     <view class="bookCon">
+        <image src='/Img/book.png'  class="bookImg"></image>
+        <view class="bookIntro">
+            <view class="bookIntrTitle">《创新有道》</view>
+            <view class="bookIntroText">本次会议吸引了各行业企业人力资源专业人士亲临现场，共同聚焦人力资源技术带来的革新和挑战，管理带来的新思路。</view>
+        </view>
+        
+    </view>
+
+    <view class="bookTitleIcon">
+        <text class="titleCon">
+            <text class="rowLine"></text>
+            <text class="bookTitle">本次书籍导读</text>
+            <text class="rowLine"></text>
+        </text>
+    </view>
+
+    <view class="recommendBookCon">
+        <image  src='/Img/activeBanner.png' class="recommendBook"></image>
+        <view class="recommendBookInfo">刘同的书，很多人都看过的吧，这本《你的孤独，虽败犹荣》，小编觉得不错，很多人看，评价很高哦，他的其它书也不错的，可以看看。</view>
+    </view>
+
+    <view class="placeHolder"></view>
+
+    <view class="joinus">
+        <image  src='/Img/buttonbg.png' class="joinusBg"></image>
+        <text class="joinusText">立即报名</text>
+    </view>
+</view>

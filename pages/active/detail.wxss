@@ -1,0 +1,208 @@
+/* pages/active/detail.wxss */
+.activeBanner{
+    position: relative;
+}
+.activeImg{
+    width:750rpx;
+    height:310rpx;
+}
+.shareCon{
+    width:120rpx;
+    height:60rpx;
+    padding-left:20rpx;
+    box-sizing: border-box;
+    border-top-left-radius: 30rpx;
+    border-bottom-left-radius: 30rpx;
+    line-height: 60rpx;
+    color:#999999;
+    background: #000;
+    position: absolute;
+    top:20rpx;
+    right:0;
+}
+.shareIcon{
+    width:30rpx;
+    height:30rpx;
+    vertical-align: middle;
+    margin-right: 10rpx;
+}
+.shareText{
+    font-size: 28rpx;
+    vertical-align: middle;
+}
+
+.intro{
+    border-bottom:10rpx solid #F5F5F5;
+    padding:30rpx 0;
+}
+.introInfo{
+    width:700rpx;
+    height:150rpx;
+    margin:20rpx auto;
+    position: relative;
+    padding-top:35rpx;
+    box-sizing: border-box;
+    text-align: center;
+}
+.activebg{
+    width:700rpx;
+    height:150rpx;
+    position: absolute;
+    top:0;
+    left:0;
+    z-index:-1;
+}
+.introTitle{
+    font-size: 36rpx;
+    color:#000000;
+    width:100%;
+    text-align: center;
+}
+.introInfoTextCon{
+    display:inline-block;
+    width:600rpx;
+    height:100rpx;
+    text-align: left;
+}
+.introInfoText{
+    display: inline-block;
+    color:#999999;
+    margin-top:10rpx;
+    font-size: 26rpx;
+}
+.autherCon{
+
+}
+.autherTitleCon{
+    margin:50rpx auto;
+    width:480rpx;
+    height:66rpx;
+    position: relative;
+    text-align: center;
+    line-height: 66rpx;
+}
+.autherBg{
+    width:480rpx;
+    height:66rpx;
+    position: absolute;
+    top:0;
+    left:0;
+    z-index:-1;
+}
+.autherTitle{
+    color:#fff;
+    font-size: 32rpx;
+}
+.autherImgCon{
+    width:100%;
+    text-align: center;
+}
+.autherImg{
+    width:180rpx;
+    height:180rpx;
+    border-radius: 50%;
+}
+.autherName{
+    color:#000000;
+    font-size: 36rpx;
+    text-align: center;
+    width:100%;
+    margin:25rpx 0;
+}
+.autherInfo{
+    box-sizing: border-box;
+    width:710rpx;
+    margin:0 auto;
+    background: #FAFAFA;
+    padding:26rpx 45rpx;
+    color:#333333;
+    font-size: 28rpx;
+}
+
+
+.bookCon{
+    width:750rpx;
+    box-sizing: border-box;
+    padding:24rpx;
+}
+.bookImg{
+    width: 194rpx;
+    height: 260rpx;
+    vertical-align: middle;
+
+}
+.bookIntro{
+    display:inline-block;
+    width:450rpx;
+    margin-left:30rpx;
+    vertical-align: middle;
+}
+.bookIntrTitle{
+    font-size: 36rpx;
+    color:#333333;
+}
+.bookIntroText{
+    margin-top:20rpx;
+    font-size: 28rpx;
+    color:#333333;
+    opacity: 0.8;
+}
+.bookTitleIcon{
+    height: 100rpx;
+    text-align: center;
+    line-height: 100rpx;
+}
+.titleCon{
+
+}
+.rowLine{
+    width: 26rpx;
+    height: 4rpx;
+    background: #5D86BD;
+    display:inline-block;
+    vertical-align: middle;
+}
+.bookTitle{
+    vertical-align: middle;
+    color:#5D86BD;
+    font-size: 36rpx;
+    margin:0 28rpx;
+}
+.recommendBookCon{
+    padding:25rpx;
+}
+.recommendBook{
+    width:700rpx;
+    height:260rpx;
+    /* margin-left:25rpx; */
+}
+.recommendBookInfo{
+    color:#333333;
+    font-size: 30rpx;
+}
+.placeHolder{
+    height:100rpx;
+}
+.joinus{
+    height:100rpx;
+    width:750rpx;
+    position: fixed;
+    bottom:0;
+    line-height: 100rpx;
+    text-align: center;
+}
+.joinusBg{
+    height:100rpx;
+    width:750rpx;
+    position: absolute;
+    top:0;
+    left: 0;
+    z-index :-1;
+}
+.joinusText{
+    color:#fff;
+    font-size: 36rpx;
+   
+    
+    
+}
