@@ -42,8 +42,12 @@
   <view class="bookCon" wx:for="{{tablist}}" wx:key="{{index}}" wx-if="{{activeIndex==2}}">
     <image src='/Img/book2.png' class="bookImg"></image>
     <view class="rankCon">
-      <image src='/Img/phb.png' class="rankIcon"></image>
-      <text class="rank">第一名</text>
+      <image src='/Img/icon-first.png' class="rankIcon" wx:if="{{index==0}}"></image>
+      <image src='/Img/icon-second.png' class="rankIcon" wx:if="{{index==1}}"></image>
+      <image src='/Img/icon-third.png' class="rankIcon" wx:if="{{index==2}}"></image>
+      <text class="rank firstRank" wx:if="{{index==0}}">第一名</text>
+      <text class="rank secondRank" wx:if="{{index==1}}">第二名</text>
+      <text class="rank" wx:if="{{index==2}}">第三名</text>
       <view class="rankIntro">
         <view>1323445人希望一起阅读这本书,其中包含你的好友/校友</view>
       </view>

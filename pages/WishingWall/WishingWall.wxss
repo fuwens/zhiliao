@@ -71,7 +71,12 @@
 .rank{
   margin-left: 20rpx;
   font-size: 38rpx;
-  color:#D98750;
+}
+.firstRank{
+  color:#FFA96F
+}
+.secondRank{
+  color:#D98750
 }
 .rankIntro{
   margin-top: 40rpx;
