@@ -90,7 +90,7 @@
               </view>
             </view>
             <view class="sth">
-                <view>
+                <view catchtap="jumpComment">
                   <view>一剪梅：</view>
                   <text>说的不错</text>
                 </view>

@@ -13,7 +13,8 @@
     "pages/my/rank",
     "pages/search/search",
     "pages/comment/comment",
-    "pages/book/detail"
+    "pages/book/detail",
+    "pages/my/attention"
   ],
   "window":{
     "backgroundTextStyle":"light",

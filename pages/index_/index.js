@@ -12,6 +12,11 @@ Page({
       activeIndex: id
     })
   },
+  jumpComment(){
+    wx.navigateTo({
+      url: '/pages/comment/comment'
+    })
+  },
   // onReady(e) {
   //   // 使用 wx.createAudioContext 获取 audio 上下文 context
   //   this.audioCtx = wx.createAudioContext('myAudio')

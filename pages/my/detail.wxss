@@ -1,3 +1,6 @@
+::-webkit-scrollbar{
+  opacity: 0;
+}
 .header{
     height: 480rpx;
     background: linear-gradient(to bottom, #275ea8 0%,#ffffff 10%);
@@ -26,17 +29,17 @@
     line-height: 45rpx;
 }
 .address-icon{
-    width:20rpx;
-    height:26rpx;
+    width:39rpx;
+    height:45rpx;
     box-shadow:0rpx 0rpx 10rpx 0rpx rgba(0, 0, 0, 0.18);
-    background-color: red;
+    /* background-color: red; */
     vertical-align: middle;
 }
 .school-icon{
-    width:28rpx;
-    height:20rpx;
+    width:47rpx;
+    height:39rpx;
     box-shadow:0rpx 0rpx 10rpx 0rpx rgba(0, 0, 0, 0.18);
-    background-color: red;
+    /* background-color: red; */
     vertical-align: middle;
 }
 .address{
@@ -148,11 +151,19 @@
     font-weight:bold;
     color:rgba(26,26,26,1);
 }
+.swiper{
+  height: 225rpx;
+  overflow: hidden;
+}
 .books-box{
     display: flex;
-    height: 225rpx;
-    justify-content: space-around;
+    height: -webkit-calc(100% + 5px);
+    overflow-x: auto;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+    /* justify-content: space-around; */
     align-self: center;
+    /* overflow: scroll; */
 }
 .book-item{
     height: 224rpx;

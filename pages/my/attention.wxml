@@ -1,0 +1,34 @@
+<view class="page">
+    <view class="tab">
+        <view catchtap="change" class="{{active == idx ? 'item active' : 'item'}}" data-index="{{idx}}" wx:for="{{list}}" wx:for-index="idx" wx:for-item="item">
+        {{item.text}}
+        </view>
+    </view>
+    <view class="user-box">
+        <view class="user">
+            <image src="../../Img/man.png" class="user-icon"></image>
+            <text class="nick">胡星星-</text>
+            <view class="status text" wx:if="{{active == 0}}">2018-11-12 加入</view>
+            <view class="status del" wx:if="{{active ==1}}">删除</view>
+            <view class="status cancel" wx:if="{{active ==2 || ( active ==3 && followed)}}">{{active ==2 ? "取消关注" : '关注他'}}</view>
+            <view class="status followed" wx:if="{{active ==3 && !followed}}">已关注</view>
+        </view>
+        <view class="user">
+            <image src="../../Img/man.png" class="user-icon"></image>
+            <text class="nick">胡星星-</text>
+            <view class="status text" wx:if="{{active == 0}}">2018-11-12 加入</view>
+            <view class="status del" wx:if="{{active ==1}}">删除</view>
+            <view class="status cancel" wx:if="{{active ==2 || ( active ==3 && !followed)}}">{{active ==2 ? "取消关注" : '关注他'}}</view>
+            <view class="status followed" wx:if="{{active ==3 && followed}}">已关注</view>
+        </view>
+        <view class="user">
+            <image src="../../Img/man.png" class="user-icon"></image>
+            <text class="nick">胡星星-</text>
+            <view class="status text" wx:if="{{active == 0}}">2018-11-12 加入</view>
+            <view class="status del" wx:if="{{active ==1}}">删除</view>
+            <view class="status cancel" wx:if="{{active ==2 || ( active ==3 && !followed)}}">{{active ==2 ? "取消关注" : '关注他'}}</view>
+            <view class="status followed" wx:if="{{active ==3 && followed}}">已关注</view>
+        </view>
+    </view>
+   
+</view>
