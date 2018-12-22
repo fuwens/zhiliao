@@ -1,0 +1,150 @@
+<view class="content">
+      <view >
+        <view>
+          <view class="top">
+            <view class="img">
+              <image src="../../Img/photo.jpg"></image>
+              <view class="sax">
+                <image src="../../Img/sax.png"></image>
+              </view>
+            </view>
+            <view class="name">
+              <text>李尧</text>
+              <view>
+                <text>1天前 . 已坚持12天</text>
+              </view>
+            </view>
+            <view class="eclipse">
+              <image src="../../Img/eclipse.png"></image>
+            </view>
+            <!-- <view class="seal">
+              <image src="../../Img/seal.png"></image>
+            </view> -->
+          </view>
+          <view class="text">
+            如果你读了王维的诗,王维似乎特别喜欢写空山,比如"空山x新雨后,天气晚来秋"；又比如"人闲桂花落,夜静春山空"
+          </view>
+          <view class="video">
+          
+            <!-- <audio
+              poster="{{poster}}"
+              name="{{name}}"
+              author="{{author}}"
+              src="{{src}}"
+              id="myAudio"
+              controls
+              loop
+            ></audio> -->
+            
+            <view><audioPlayer bind:onEnd='onEnd' bind:onNext='onNext' src='{{src}}' bind:onLast='onLast' title=''/></view>
+          </view>
+          <view class="op">
+            <view class="left">
+              <image src='../../Img/heart-shaped_2.png'></image>
+              <view>赞</view>
+            </view>
+            <view class="left">
+              <image src="../../Img/commentIcon.png"></image>
+              <view>评论</view>
+            </view>
+            <view class="left">
+              <image src="../../Img/share.png"></image>
+              <view>分享</view>
+            </view>
+            <view class="right"> 第12关:《鹿柴》</view>
+          
+          </view>
+          <view class="comment-box">
+            <view class="c-header">
+                <text class="c-line"></text>
+                <text class="count">评论（236）</text>
+                <text class="zan-count">赞 32</text>
+            </view>
+            <view class="reader">
+                <image src="../../Img/man.png" class="reader-user"></image>
+                <view class="reader-content">
+                    <text class="read-nick"> 四月的天有点暗</text>
+                    <view class="read-comment">十年书龄老阿姨一枚</view>
+                    <text class="read-time">48分钟前</text>
+                    <image src="../../Img/zan.png" class="read-zan"></image>
+                </view>
+            </view>
+            <view class="reader">
+                <image src="../../Img/man.png" class="reader-user"></image>
+                <view class="reader-content">
+                    <text class="read-nick"> 四月的天有点暗</text>
+                    <view class="read-comment">系列作者</view>
+                    <text class="read-time">48分钟前</text>
+                    <image src="../../Img/zan.png" class="read-zan"></image>
+                </view>
+            </view>
+            <view class="reader">
+                <image src="../../Img/man.png" class="reader-user"></image>
+                <view class="reader-content">
+                    <text class="read-nick"> 四月的天有点暗</text>
+                    <view class="read-comment">记录日常随便画画妆容看心情穿搭的姜记录日常随便画画妆容看心情穿搭的姜记录日常随便画画妆容看心情穿搭的姜记录日常随便画画妆容看心情穿搭的姜</view>
+                    <text class="read-time">48分钟前</text>
+                    <image src="../../Img/zan.png" class="read-zan"></image>
+                </view>
+            </view>
+            <view class="reader">
+                <image src="../../Img/man.png" class="reader-user"></image>
+                <view class="reader-content">
+                    <text class="read-nick"> 四月的天有点暗</text>
+                    <view class="read-comment">记录日常随便画画妆容看心情穿搭的姜记录日常随便画画妆容看心情穿搭的姜记录日常随便画画妆容看心情穿搭的姜记录日常随便画画妆容看心情穿搭的姜</view>
+                    <text class="read-time">48分钟前</text>
+                    <image src="../../Img/zan.png" class="read-zan"></image>
+                </view>
+            </view>
+            <view class="reader">
+                <image src="../../Img/man.png" class="reader-user"></image>
+                <view class="reader-content">
+                    <text class="read-nick"> 四月的天有点暗</text>
+                    <view class="read-comment">记录日常随便画画妆容看心情穿搭的姜记录日常随便画画妆容看心情穿搭的姜记录日常随便画画妆容看心情穿搭的姜记录日常随便画画妆容看心情穿搭的姜</view>
+                    <text class="read-time">48分钟前</text>
+                    <image src="../../Img/zan.png" class="read-zan"></image>
+                </view>
+            </view>
+            <view class="reader">
+                <image src="../../Img/man.png" class="reader-user"></image>
+                <view class="reader-content">
+                    <text class="read-nick"> 四月的天有点暗</text>
+                    <view class="read-comment">记录日常随便画画妆容看心</view>
+                    <text class="read-time">48分钟前</text>
+                    <image src="../../Img/zan.png" class="read-zan"></image>
+                </view>
+            </view>
+          </view>
+          <!-- <view class="zan">
+            <view>
+              <view class="manImage">
+                <image src="../../Img/man.png"></image>
+              </view>
+              <view class="mantext">
+                <text>Gdradd小跑腿</text>
+                <view>2018-12-02  00:23:56</view>
+              </view>
+            </view>
+            <text>给你一个大大的赞</text>
+          </view>
+          <view class="detail">
+            <view class="back">
+              <image src="../../Img/heart-shaped.png"></image>
+              <view class='txt-color'>小明</view>
+              <view class='txt-color'>， 小刚</view>
+              <view class='txt-color'>， 小李</view>
+              <view class="publice">
+                <text>共有40个人觉得很赞</text>
+                <image src="../../Img/arrows.png"></image>
+              </view>
+            </view>
+            <view class="sth">
+                <view>
+                  <view>一剪梅：</view>
+                  <text>说的不错</text>
+                </view>
+              </view>
+          </view> -->
+        </view>
+      </view>
+  </view>

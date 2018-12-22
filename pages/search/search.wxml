@@ -1,0 +1,55 @@
+<view class="page">
+    <view class="search-box">
+        <view class="input-box">
+            <image class="icon-search" src="../../Img/icon-search.png"></image>
+            <input value="{{word}}" bindconfirm="bindKeyInput" class="input" placeholder="书籍名" placeholder-class="placeholder"></input>
+            <image catchtap="clearWord" class="close" src="../../Img/icon-close.png"></image>
+        </view>
+        <text class="cancel">取消</text>
+    </view>
+    <view class="search-empty" wx:if="{{!word}}">
+        <view class="label-box">
+            <text class="border blue"></text>
+            历史搜索
+        </view>
+        <view class="history">
+            <view class="h-item blue">草房子</view>
+            <view class="h-item blue">点点的一棵树</view>
+            <view class="h-item blue">扣子的颜色是天空的颜色</view>
+            <view class="h-item blue">蓝调江南</view>
+            <view class="h-item blue">友情是一颗月亮树</view>
+        </view>
+        <view class="label-box hot">
+            <text class="border pink"></text>
+            热门搜索
+        </view>
+        <view class="history">
+            <view class="h-item pink">草房子</view>
+            <view class="h-item pink">点点的一棵树</view>
+            <view class="h-item pink">扣子的颜色是天空的颜色</view>
+            <view class="h-item pink">蓝调江南</view>
+            <view class="h-item pink">友情是一颗月亮树</view>
+        </view>
+    </view>
+    <view class="search-list" wx:else>
+        <text class="tips">您添加的书籍也有机会上榜哦~</text>
+        <view class="books">
+            <view class="book">
+                <image class="b-img" src="../../Img/book.png"></image>
+                <view class="b-info">
+                    <text class="b-name">创新有道</text>
+                    <image class="select" src="../../Img/select.png"></image>
+                    <text class="count">234</text>
+                </view>
+            </view>
+            <view class="book">
+                <image class="b-img" src="../../Img/book.png"></image>
+                <view class="b-info">
+                    <text class="b-name">创新有道</text>
+                    <image class="select" src="../../Img/unselect.png"></image>
+                    <text class="count">234</text>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>

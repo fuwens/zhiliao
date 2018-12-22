@@ -8,7 +8,12 @@
     "pages/active/active",
     "pages/active/detail",
     "pages/my/my",
-    "pages/my/detail"
+    "pages/my/detail",
+    "pages/my/setInfo",
+    "pages/my/rank",
+    "pages/search/search",
+    "pages/comment/comment",
+    "pages/book/detail"
   ],
   "window":{
     "backgroundTextStyle":"light",

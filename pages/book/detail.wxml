@@ -1,0 +1,65 @@
+<view class="page">
+    <view class="box-bg">
+        <image src="../../Img/book5.png" class="book"></image>
+        <view class="book-box">
+            <view class="b-name">你的时间节点</view>
+            <view class="box">
+                <image src="../../Img/icon-auther.png" class="auther-icon"></image>
+                <text class="auther">作者：沫沫</text>
+                <image src="../../Img/icon-book.png" class="book-icon"></image>
+                <text class="auther">3453人读过</text>
+            </view>
+            <view class="reader">xxxx人想读</view>
+        </view>
+    </view>
+    <view class="con">
+        <view class="label">短评</view>
+        <view class="common-box">
+            <view class="comment blue">人生苦短 +536</view>
+            <view class="comment orange">之苦才幸福 +536</view>
+            <view class="comment">好 +536</view>
+            <view class="comment"> 双十一开箱 +536</view>
+            <view class="comment">好 +536</view>
+            <view class="comment">人生苦短 +536</view>
+            <view class="comment"> 双十一开箱 +536</view>
+            <view class="comment">人生苦短 +536</view>
+        </view>
+        <view class="label">短评</view>
+        <view class="intro">017年9月13日 - 这是宣城市局(公司)近年来结合实际主动创新的一个例证。 “我们以‘改革创新做乘法’为指导思想,紧紧围绕‘激发创新活力、增强创新能力、支撑组织成长</view>
+        <view class="label">书本信息</view>    
+        <view class="book-info">
+            <view class="line">
+                <text class="b-key">出版社</text>
+                <text class="b-val">人民邮电出版社</text>
+            </view>
+            <view class="line">
+                <text class="b-key">出版年</text>
+                <text class="b-val">2010-07</text>
+            </view>
+            <view class="line">
+                <text class="b-key">页数</text>
+                <text class="b-val">471</text>
+            </view>
+            <view class="line">
+                <text class="b-key">定价</text>
+                <text class="b-val">69.00元</text>
+            </view>
+            <view class="line">
+                <text class="b-key">装帧</text>
+                <text class="b-val">平装</text>
+            </view>
+        </view>    
+    </view>
+    <view class="static"></view>
+    <view class="input-box">
+        <view class="input-pon">
+            <image class="w-icon" src="../../Img/icon-write.png"></image>
+            <input  placeholder="请输入评语..." placeholder-class="placeholder" class="input"></input>
+        </view>
+        <view class="star">
+            <image class="collect" src="../../Img/select.png"></image>
+            <view class="collect-count">234</view>
+        </view>
+        <image class="share" src="../../Img/icon-share.png"></image>
+    </view>
+</view>

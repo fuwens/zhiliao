@@ -104,11 +104,11 @@
     top: 50%;
     transform: translate(-50%,-50%);
 }
-.left{
+.fans-box .left{
     float: left;
     width: 49%;
 }
-.right{
+.fans-box .right{
     float: right;
     width: 49%;
 }

@@ -1,0 +1,55 @@
+<view class="page">
+    <view class="box">
+        <view class="line">
+            <text class="w-key">头像</text>
+            <view class="v-val">
+                <image class="adver" src="../../Img/man.png"></image>
+                <image class="arrow" src="../../Img/left-arrow.png"></image>
+            </view>
+        </view>
+        <view class="line">
+            <text class="w-key">名字</text>
+            <view class="v-val">
+                <text>胡宇秋SUNNY</text>
+                <image class="arrow" src="../../Img/left-arrow.png"></image>
+            </view>
+        </view>
+        <view class="line">
+            <text class="w-key">性别</text>
+            <view class="v-val">
+                <text>男</text>
+                <image class="arrow" src="../../Img/left-arrow.png"></image>
+            </view>
+        </view>
+    </view>
+    <view class="box-two">
+        <view class="line">
+            <text class="w-key">生日</text>
+            <view class="v-val">
+                <text>1990-01-23</text>
+                <image class="arrow" src="../../Img/left-arrow.png"></image>
+            </view>
+        </view>
+        <view class="line">
+            <text class="w-key">地址</text>
+            <view class="v-val">
+                <text>北京财经专修学院</text>
+                <image class="arrow" src="../../Img/left-arrow.png"></image>
+            </view>
+        </view>
+        <view class="line">
+            <text class="w-key">学校（全称）</text>
+            <view class="v-val">
+                <text>男</text>
+                <image class="arrow" src="../../Img/left-arrow.png"></image>
+            </view>
+        </view>
+        <view class="line">
+            <text class="w-key">简介</text>
+            <view class="v-val">
+                <text>知了·悦读，只和书友在一起</text>
+                <image class="arrow" src="../../Img/left-arrow.png"></image>
+            </view>
+        </view>
+    </view>
+</view>

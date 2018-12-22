@@ -1,6 +1,9 @@
 {
-    "navigationBarTitleText": "知了.阅读",
-    "navigationBarBackgroundColor": "#275ea8",
-    "navigationBarTextStyle": "#fff",
-    "navigationBarText": "center"
+  "navigationBarTitleText": "知了.阅读",
+  "navigationBarBackgroundColor": "#275ea8",
+  "navigationBarTextStyle": "#fff",
+  "navigationBarText": "center",
+  "usingComponents": {
+    "audioPlayer": "../../component/AudioPlayer/audioPlayer"
   }
+}
