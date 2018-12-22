@@ -50,7 +50,7 @@
                     <text>4</text>
                 </view>
                 <view class="center">
-                    <image class="user" src="../../Img/man.png"> </image>
+                    <image class="user mgl" src="../../Img/man.png"> </image>
                     <text class="user-name">fakesheep</text>
                 </view>
                 <view class="right">3</view>
