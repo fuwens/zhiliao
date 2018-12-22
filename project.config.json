@@ -33,7 +33,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 2,
+			"current": 4,
 			"list": [
 				{
 					"id": -1,
@@ -50,7 +50,19 @@
 				{
 					"id": -1,
 					"name": "活动详情",
-					"pathName": "pages/active/detail"
+					"pathName": "pages/active/detail",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "活动详情",
+					"pathName": "pages/work/work",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "活动详情",
+					"pathName": "pages/work/work"
 				}
 			]
 		}

@@ -1,0 +1,63 @@
+<view>
+    <view class="selectBook">
+        <image src='/Img/book.png'  class="selectBookImg"></image>
+        <view class="selectBookInfo">
+            <view class="selectBookItem">
+                <text class="selectBookText">已选书籍</text>
+                <view class="selectBookInput">
+                    <image src='/Img/downArrow.png'  class="downArrow"></image>
+                </view>
+                 
+            </view>
+
+            <view class="selectBookItem">
+                <text class="selectBookText">已读页码</text>
+                <input class="selectBookInput"></input>
+            </view>
+        </view>
+    </view>
+
+    <view class="shareTitle">本次阅读分享</view>
+
+    <view class="shareReading">
+
+        <textarea class="remark" placeholder='说说今天的感想和收获吧......' placeholder-style="color:#CCCCCC;" rows="1" ></textarea>
+        <view class="operation">
+            <image src='/Img/voice.png'  class="operationImg"></image>
+            <image src='/Img/takephoto.png'  class="operationImg"></image>
+            <image src='/Img/movie.png'  class="operationImg"></image>
+        </view>
+
+        <view class="video">
+            <view>
+                <audioPlayer bind:onEnd='onEnd' bind:onNext='onNext' src='{{src}}' bind:onLast='onLast' title=''/>
+            </view>
+        </view>
+
+        <view class="uploadImgCon">
+            <view class="uploadImgItem">
+                <image src='/Img/delete.png'  class="deleteImg"></image>
+                <image src='/Img/book.png'  class="uploadImg"></image>
+            </view>
+
+             <view class="uploadImgItem">
+                <image src='/Img/delete.png'  class="deleteImg"></image>
+                <image src='/Img/book.png'  class="uploadImg"></image>
+            </view>
+         
+        </view>
+    </view>
+
+    <view class="locationCon">
+        <view class="location">
+            <image src='/Img/map.png'  class="locationImg"></image>
+            <text class="locationText">所在位置（定位）</text>
+        </view>
+        <view class="publishCon">
+            <text class="publishImg"></text>
+            <text class="publishText">公开</text>
+        </view>
+    </view>
+
+    <view class="publish">发表</view>
+</view>
