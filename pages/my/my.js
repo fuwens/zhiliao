@@ -12,6 +12,33 @@ Page({
             url: '/pages/my/detail?id=1'
         })
     },
+    Jump(e){
+        let type = e.target.dataset.type
+        let url = ''
+        switch (type) {
+            case 'myForward':
+                url = "/pages/my/attention?active=2"
+                break;
+            case 'forwardMe':
+                url = "/pages/my/attention?active=3"
+                break;
+            case 'notice':
+                url = "/pages/my/attention?active=2"
+                break;
+            case 'letter':
+                url = "/pages/my/attention?active=2"
+                break;
+            case 'setInfo':
+                url = "/pages/my/setInfo"
+                break;
+            case 'schoolFriend':
+                url = "/pages/my/attention?active=0"
+                break;
+        }
+        wx.navigateTo({
+            url: url
+        })
+    },
     /**
      * 生命周期函数--监听页面加载
      */

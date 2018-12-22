@@ -1,27 +1,34 @@
-// pages/my/detail.js
+// pages/my/attention.js
 Page({
 
     /**
      * 页面的初始数据
      */
     data: {
-
+        list:[
+            {text: "我的校友"},
+            {text: "我的好友"},
+            {text: "我的关注"},
+            {text: "关注我的"}
+        ],
+        active: 0,
+        followed: true
     },
-    jump(){
-        wx.navigateTo({
-            url: '/pages/my/attention'
-        })  
-    },
-    jumpBook(){
-        wx.navigateTo({
-            url: '/pages/book/detail'
-        }) 
+    change(e){
+        this.setData({
+            active: e.currentTarget.dataset.index
+        })
     },
     /**
      * 生命周期函数--监听页面加载
      */
     onLoad: function (options) {
-
+        console.log(options)
+        if(options.active){
+            this.setData({
+                active: options.active
+            })
+        }
     },
 
     /**
