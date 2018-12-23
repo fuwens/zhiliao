@@ -66,9 +66,10 @@
 					"query": ""
 				},
 				{
-					"id": -1,
-					"name": "活动详情",
-					"pathName": "pages/work/work"
+					"id": 5,
+					"name": "打卡",
+					"pathName": "pages/work/work",
+					"query": ""
 				}
 			]
 		}
