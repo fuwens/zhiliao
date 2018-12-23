@@ -38,7 +38,7 @@
                 <text class='word'>搜索</text>
               </view>
               <view class='my-item' bindtap="jumpRank">
-                <image class='zone-icon' src="../../Img/school-friend.png"></image>
+                <image class='zone-icon' src="../../Img/numberone.png"></image>
                 <text class='word'>排行榜</text>
               </view>
             </view>

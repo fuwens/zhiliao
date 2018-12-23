@@ -34,8 +34,13 @@
               <image src="../../Img/seal.png"></image>
             </view>
           </view>
-          <view class="text">
-            如果你读了王维的诗,王维似乎特别喜欢写空山,比如"空山x新雨后,天气晚来秋"；又比如"人闲桂花落,夜静春山空"
+          <view class="text {{showText?'noshow':'show'}}" bindtap="jumpComment">
+            {{connmenText}}
+            <!-- 如果你读了王维的诗,王维似乎特别喜欢写空山,比如"空山x新雨后,天气晚来秋"；又比如"人闲桂花落,夜静春山空" -->
+          </view>
+          <view class="moreText" wx:if="{{connmenText.length>100}}">
+            <text class="moreTextDeatil" wx:if="{{showText}}" bindtap="changeShowmMre">更多</text>
+            <text class="moreTextDeatil" wx:else bindtap="changeShowmMre">收起</text>
           </view>
           <view class="video">
                     

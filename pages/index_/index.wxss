@@ -105,7 +105,25 @@
   padding:0 30rpx 20rpx 30rpx;
   font-size:30rpx;
   color:#262626;
+  line-height: 45rpx;
   text-align: justify;
+  height:130rpx;
+}
+.show{
+  height:auto;
+}
+.noshow{
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.moreText{
+  color:#627FA6;
+  font-size: 30rpx;
+  box-sizing: border-box;
+  padding:10rpx 30rpx 30rpx 30rpx;
+}
+.moreTextDeatil{
+ margin-right: 20rpx;
 }
 .text ::after{
   display: inline-block;
